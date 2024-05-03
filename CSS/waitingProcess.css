@@ -1,0 +1,52 @@
+/*Waiting Process*/
+.waitingProcess {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 88vh; /* This ensures the section takes up the full height of the viewport */
+}
+
+.waitingProcess__container {
+  border: 2px solid #ccc;
+  padding: 50px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  width: 300px;
+  margin-top: -200px;
+}
+
+.waitingProcess .button {
+  margin-top: 100px; 
+}
+
+.waitingProcess .button button {
+  padding: 10px 20px; 
+  background-color: #007bff; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px;
+  cursor: pointer; 
+  margin-left: -400px;
+}
+
+.waitingProcess .button button:hover {
+  background-color: #0056b3; 
+}
+
+/*--Notification--*/
+.notification {
+  position: fixed;
+  top: 20px; /* Adjust as needed */
+  right: 20px; /* Adjust as needed */
+  background-color: #f0f0f0;
+  cursor:pointer;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensure it appears above other content */
+  }
+  
+  
+  

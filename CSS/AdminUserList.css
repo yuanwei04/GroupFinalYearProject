@@ -1,0 +1,136 @@
+*{
+    margin:0;
+    list-style:none;
+    text-decoration:none;
+}
+
+/*--Side Bar--*/
+.AdminPanel{
+    display:flex;
+    position:relative;
+}
+
+.AdminPanel .SideBar{
+    background:#FFA500;
+    position:fixed;
+    height:100%;
+    width:300px;
+    padding:30px 0;
+}
+
+.SideBar h2{
+    display:flex;
+    padding:30px 45px 60px;
+    font-size:34px;
+    font-family:sans-serif;
+}
+
+.SideBar a{
+    font-size:18px;
+    padding:8px 8px;
+    color:white;
+}
+
+.SideBar a:Hover{
+    background-color:#cccccc;
+    color:black;
+    padding:8px 8px;
+}
+
+/*--Admin Header--*/
+.AdminHeader{
+    background:#ffbf00;
+    width:1476px;
+    height:120px;
+    padding:0 30px;
+    display:flex;
+    position:fixed;
+}
+
+.brand {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 100%;
+    width: 20%;
+    font-size: 12px;
+    left:300px;
+    color:white;
+}
+.brand .fa-cutlery {
+    font-size: 35px;
+}
+.brand h1 {
+    margin-left: 5%;
+}
+
+
+.AdminHeader h3{
+    display:flex;
+    position:absolute;
+    margin-left:820px;
+    margin-top:90px;
+    font-size:23px;
+}
+
+.AdminHeader ul{
+    display:flex;
+    position:absolute;
+    margin-left:90%;
+    padding:7px 10px;
+    width:30%;
+}
+
+.AdminHeader a{
+    color:white;
+    font-size:18px;
+    margin-right:2%;
+}
+
+.AdminHeader a:hover{
+    color:black;
+    background-color:#cccccc;
+}
+
+.AdminHeader .fa-sign-out{
+    font-size:20px;
+    color:white;
+}
+
+.AdminPanel .MainContent{
+    width:100%;
+    margin-left:330px;
+    margin-top:140px;
+    display:flex;
+}
+
+/*--User List--*/
+.UserList th{
+    background-color:#FFA500;
+    padding:8px;
+    font-size:18px;
+}
+
+.UserList td{
+    background-color:#ffbf00;
+    padding:8px;
+    font-size:16px;
+}
+
+.UserList a{
+    color:black;
+    padding:2px;
+    border-radius:3px;
+    background-color:white;
+    padding:0 3px;
+}
+
+.UserList .Edit:hover{
+    color:white;
+    background:green;
+}
+
+.UserList .Delete:hover{
+    color:white;
+    background:red;
+}

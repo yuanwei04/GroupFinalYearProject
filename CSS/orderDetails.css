@@ -1,0 +1,114 @@
+/*Waiting Process*/
+  .preparing {
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; /* This ensures the section takes up the full height of the viewport */
+    
+  }
+
+  .preparing__container {
+    margin-top:100px;
+    margin-bottom:10px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    width: 400px;
+    margin-top: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .preparing__container h3 {
+    margin-top: 0;
+    color: #333; /* Darken the text color */
+    font-size: 24px; /* Larger font size */
+  }
+  
+  .preparing__container p{
+    margin-top: 10px;
+    font-size:16px;
+    text-align:left;
+  }
+
+  .preparing__container .status {
+    font-weight: bold; /* Make the status text bold */
+    color: #ffa200; /* Change the status color */
+  }
+
+  /*Receipt*/
+  .receipt {
+    margin: 2rem;
+    margin-top: 100px;
+  }
+  
+  .receipt__container {
+    overflow-x: auto;
+  }
+  
+  .receipt-box {
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  #receipt-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  #receipt-table th,
+  #receipt-table td {
+    padding: 12px 16px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  #receipt-table th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+    color: #333;
+    text-transform: uppercase;
+  }
+  
+  #receipt-table tbody tr:nth-child(even) {
+    background-color: #f8f9fa;
+  }
+  
+  #receipt-table tbody tr:hover {
+    background-color: #e9ecef;
+  }
+  
+  /*button*/
+  .button {
+    text-align: center;
+  }
+
+  .btnBack {
+    background-color: #FFA500;
+    color: white;
+    margin-top:10px;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+  }
+
+  .btnBack:hover {
+    background-color: #ffbf00;
+  }
+
+  .btnBack:active {
+    background-color: #cccccc;
+  }
+  .receipt__container .button{
+    color: #2e0caa;
+  }

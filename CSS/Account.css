@@ -1,0 +1,159 @@
+.MainContent .Account{
+    border:solid 3px black;
+    width:500px;
+}
+
+.Account{
+    margin: 40px auto 50px auto;
+}
+
+.MainContent .Account ul li {
+    text-decoration: none;
+    list-style-type: none; 
+    margin-bottom: 10px;
+}
+
+.icon {
+    text-align: center;
+    font-size: 50px;
+}
+
+/* Style for the table */
+.reqTable {
+    width: 95%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-bottom: 100px;
+}
+
+/* Style for table headers */
+.reqTable th {
+    background-color: #f2f2f2;
+    color: #333;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Style for table data */
+.reqTable td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Alternate row background color */
+.reqTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Style for view details link */
+.view-details-link {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.view-details-link:hover {
+    text-decoration: underline;
+}
+
+.pickup-history {
+    text-align: center; 
+}
+
+
+/*Popup form*/
+.edit-form-content h2{
+    text-align: center;
+}
+/* Style for the Edit Profile button */
+.editbtn {
+    display: block; 
+    margin: 0 auto;
+    padding: 10px 20px; 
+    background-color: #ffa500;
+    color: white; 
+    border: none; 
+    border-radius: 15px;
+    cursor: pointer; 
+    font-size: 16px; 
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.updatebtn{
+    display: block; 
+    margin: 0 auto;
+    padding: 10px 20px; 
+    background-color: #ffa500;
+    color: white; 
+    border: none; 
+    border-radius: 15px;
+    cursor: pointer; 
+    font-size: 16px; 
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+.editbtn:hover {
+    background-color: #db8d34;
+}
+
+.updatebtn:hover{
+    background-color: #db8d34;
+}
+
+/* Style for the container of the edit form */
+.edit-form-container {
+    display: none; /* Hide the container by default */
+    position: fixed; /* Position the container relative to the viewport */
+    z-index: 1; /* Set a high z-index to ensure it appears on top of other content */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0,0,0,0.4); /* Black background with transparency */
+}
+
+/* Style for the content of the edit form */
+.edit-form-content {
+    background-color: #fefefe; /* White background */
+    margin: 15% auto; /* Center the form vertically and horizontally */
+    padding: 50px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    border: 1px solid #888;
+    width: 50%; /* Set the width of the form */
+    margin-top: 100px;
+}
+
+/* Style for the close button */
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.edit-form-content input[type="text"],
+.edit-form-content input[type="email"],
+.edit-form-content input[type="password"],
+.edit-form-content select,
+.edit-form-content input[type="date"] {
+    width: 100%; /* Set width to 100% */
+    padding: 10px; /* Padding */
+    margin-bottom: 10px; /* Margin bottom */
+    border: 1px solid #ccc; /* Border */
+    border-radius: 5px; /* Border radius */
+    box-sizing: border-box; /* Box sizing */
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+

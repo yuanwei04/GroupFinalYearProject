@@ -1,0 +1,376 @@
+*{  /*Resetting Default Style*/
+  margin:0%;
+  padding:0%;
+  
+}
+
+body{     
+  padding-top:90px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+  Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/*Navigation Bar*/
+header {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 70px;
+background: #ffa500;
+color: white;
+display: flex;
+align-items: center;
+justify-content: space-between;
+z-index: 1000;
+}
+
+.brand {
+display: flex;
+align-items: center;
+height: 100%;
+padding: 4%;
+width: 20%;
+font-size: 12px;
+}
+
+.brand .fa-cutlery {
+font-size: 35px;
+}
+
+.brand h1 {
+margin-left: 5%;
+}
+
+.navbar {
+position: relative;
+width: 70%;
+padding: 5%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: flex-end;
+margin-right: -100px;
+}
+
+.navbar ul {
+width: 70%;
+text-align: center;
+}
+
+.navbar ul li {
+display: inline-block;
+margin-left: 4%;
+transition: all 0.5s ease;
+text-align: center;
+cursor: pointer;
+padding: 1%;
+height: 20px;
+overflow: hidden;
+}
+
+.navbar ul li:hover {
+height: 45px;
+}
+
+.navbar ul li #headIcon {
+display: block;
+font-size: 24px;
+}
+
+.navbar ul li a {
+text-decoration: none;
+font-size: 18px;
+color: white;
+}
+
+.navbar ul li a:active,
+:focus {
+text-decoration: underline;
+font-weight: 700;
+}
+
+#menuIcon {
+display: none;
+}
+
+@media only screen and (max-width: 768px) {
+body {
+  margin: 0;
+  padding: 0;
+  margin-top: 80px;
+}
+
+.brand h1 {
+  font-size: 12px;
+}
+
+.navbar {
+  position: relative;
+  display: block;
+  width: 75%;
+  display: none;
+  top: 70px;
+}
+.navbar.navactive {
+  display: inline;
+}
+
+#menuIcon {
+  display: inline;
+  position: fixed;
+  font-size: 24px;
+  margin-left: 88%;
+  z-index: 222;
+  float: right;
+  padding: 1%;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid rgb(221, 221, 221);
+}
+
+.navbar ul {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(37, 42, 94);
+}
+
+.navbar ul li {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  text-align: left;
+  position: relative;
+  top: 20px;
+  padding: 2%;
+}
+
+.navbar ul li #headIcon {
+  display: inline-block;
+  font-size: 33px;
+}
+
+.navbar ul li:hover {
+  background: rgb(35, 36, 51);
+}
+
+.navbar ul li a {
+  margin-left: 40px;
+  font-family: 600;
+}
+}
+
+/*PIckup Section*/
+.PickupTitle{
+  font-size:1.5rem;
+  font-weight:bold;
+  text-align:center;
+}
+
+
+/*Order Details*/
+.order-content{
+  display:grid;
+  grid-template-columns: repeat(3, minmax(320px, 1fr));
+  gap:20px;
+  margin-top:40px;
+}
+.order-box {
+  display:flex;
+  flex-direction: column;
+  margin:20px;
+  padding:20px;
+  border:2px solid #FFA500;
+  border-radius: 10px;
+  text-align:center; 
+  background-color: #fff; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.order-box:hover{
+  border:#ff7f00;
+  box-shadow: 0 0 15px rgba(255, 165, 0, 0.3);
+}
+
+.emptyText{
+  margin:80px auto;
+}
+
+.order-detail {
+  font-size:16px;
+  text-align:left;
+  margin-bottom:10px;
+  border-spacing:0;
+}
+
+.order-detail:nth-child(2){
+  margin-bottom:auto;
+  border:2px solid #FFA500;
+  border-radius:1px;
+}
+
+.order-detail th,td{
+  padding:5px 10px;
+}
+
+.order-detail th {
+  background-color: #FFA500; /* Main Orange background for table header */
+  color: white;
+}
+
+.order-detail td {
+  background-color: white;
+}
+
+.order-detail td:first-child {
+  font-weight: bold;
+}
+
+.order-detail th,
+.order-detail td {
+  width: 60%; /* Equal width for table columns */
+}
+
+
+
+.accept-button {
+  background-color: #FFA500; /* Main Orange background color */
+  margin-top:20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.accept-button:hover {
+  background-color: #ff7f00; /* Darker shade of Main Orange on hover */
+}
+
+/*--Footer--*/
+.footer-container {
+  background-color: none;
+  border: 2px solid;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0;
+  box-sizing: border-box;
+
+}
+
+.footer h4 {
+  margin-bottom: 25px;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.icons .fa {
+  color: #353030;
+  margin: 0 13px;
+  cursor: pointer;
+  padding: 18px 0;
+}
+
+.fa-heart-o {
+  color: #df1d88;
+}
+
+.footer-ul ul {
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.footer-ul ul a {
+  color: #353030;
+  text-decoration: none;
+}
+
+.footer-ul ul li {
+  text-align: center;
+  transition: all 0.5s ease;
+  cursor: pointer;
+  padding: 1.85%;
+  height: 5px;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.footer-ul ul li:hover {
+  height: 20px;
+  text-decoration: underline;
+}
+
+hr {
+  width: 80%;
+  margin: 20px auto;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #000;
+}
+
+.footer-container {
+  background-color: none;
+  border: 2px solid;
+  padding: 0;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .footer {
+      padding: 0px 0px;
+    }
+
+    .footer h4 {
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+
+    .footer-ul ul {
+      list-style: none;
+      width: 80%;
+      padding: 0;
+    }
+
+    .footer-ul ul li {
+      padding: 8px 0;
+      height: auto;
+      overflow: visible;
+    }
+
+    .icons .fa {
+      margin: 0 8px;
+      padding: 10px 0;
+    }
+
+    .footer p {
+      text-overflow: initial; /* or use overflow: auto; or overflow: scroll; based on your preference */
+      overflow: visible; /* Adds an ellipsis (...) to indicate text overflow */
+      white-space: normal; /* Prevents the text from wrapping to the next line */
+    }
+}
+
+.notification {
+position: fixed;
+top: 20px; /* Adjust as needed */
+right: 20px; /* Adjust as needed */
+background-color: #f0f0f0;
+cursor:pointer;
+color: #333;
+padding: 10px;
+border-radius: 5px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+z-index: 1000; /* Ensure it appears above other content */
+}
+
+
+

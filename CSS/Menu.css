@@ -1,0 +1,105 @@
+*{
+    margin:0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*--Menu--*/
+.MainContent .Page{
+    text-align: center;
+}
+
+.MainContent #Cart{
+    background-color: #ffbf00;
+    font-size:25px;
+    border-radius:100%;
+    color:white;
+    padding:15px;
+    position:fixed;
+    margin-left:88%;
+    margin-top:34%;
+}
+
+.MainContent .Menu img{
+    width: 250px;
+    height: 150px;
+    border:solid black 2px;
+    display:block;
+}
+
+.MainContent .Menu{
+    display: block;
+    float: left;
+    background-color:#FFA500;
+    padding: 10px;
+    margin: 5px;
+    height: 360px;
+    width: 255px;
+}
+
+.MainContent .Menu h4{
+    padding:1px;
+    font-family:sans-serif;
+}
+
+.MainContent .Menu h2{
+    padding:1px;
+    font-family:fantasy;
+}
+
+.MainContent .Menu h3{
+    padding:3px;
+}
+
+
+.MainContent .Menu h5{
+    padding:3px;
+    font-family:monospace;
+}
+
+.MainContent text{
+    font-size:15px;
+    font-family:sans-serif;
+}
+
+.MainContent .Menu input{
+    outline:none;
+    font-size:15px;
+    position:relative;
+}
+
+.MainContent .Menu .num{
+    text-decoration: none;
+    width:50px;
+    margin-top:5px;
+    border:none;
+    border-radius:3px;
+}
+
+.MainContent .AddToCart{
+    border:none;
+    width:200px;
+    height:28px;
+    margin:5px 25px;
+    background-color:white;
+    display:inline-block;
+    border-radius:5px;
+    text-decoration: none;
+}
+
+.MainContent .AddToCart:hover{
+    background-color: #ffbf00;
+    color:white;
+}
+
+.Title{
+    text-align:left;
+}
+
+.F{
+    display:inline-block;
+}
+
+.B{
+    display:inline-block;
+}

@@ -1,0 +1,82 @@
+.MainContent h2{
+    text-align:center;
+}
+
+.MainContent .Cart{
+    text-align:center;
+}
+
+.Cart table{
+    display:flex;
+    margin-left:29%;
+    border-spacing:0;
+    padding:0;
+}
+
+.Cart th,td{
+    padding:8px 25px;
+    font-size:18px;
+}
+
+.Cart th{
+    background:#FFA500;
+    padding:5px;
+}
+
+.Cart td{
+    text-align:left;
+    background-color:#cccccc;
+}
+
+.Cart .btnRemove{
+    font-size:15px;
+    border:none;
+    padding:5px 10px;
+    border-radius:5px;
+    background-color:red;
+    color:white;
+}
+
+.Cart .btnRemove:hover{    
+    background-color:#ffbf00;
+    color:white;
+}
+
+.Cart .btnClear{
+    font-size:15px;
+    border:none;
+    padding:5px 10px;
+    border-radius:5px;
+    background-color:red;
+    color:white;
+}
+
+.Cart .btnClear:hover{    
+    background-color:#ffbf00;
+    color:white;
+}
+
+.Cart label{
+    font-size:18px;
+}
+
+.Cart .time{
+    margin:15px 315px 15px 5px;
+    width:150px;
+    font-size:15px;
+}
+
+.Cart .location{
+    margin-right:310px;
+    margin-left:5px;
+    font-size:15px;
+}
+
+.Cart .submit{
+    margin:15px 0 15px 540px;
+    background-color:#007bff;
+    border-radius:3px;
+    border:none;
+    color:white;
+    padding:6px;
+}
